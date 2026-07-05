@@ -1,4 +1,8 @@
-# eCommerce_API
+# E-Commerce API
+
+## About
+
+A RESTful API built with Node.js, Express, and MongoDB for managing products and shopping carts.
 
 ## Features 
 

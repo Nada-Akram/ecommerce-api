@@ -2,7 +2,6 @@ require("dotenv").config();
 
 const mongoose=require("mongoose");
 const Product=require("../models/product");
-const product = require("./models/product");
 
 const products = [
     {

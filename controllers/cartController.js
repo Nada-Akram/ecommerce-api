@@ -1,14 +1,12 @@
 const Cart=require("../models/cart");
 
-exports.getCarts=async(req,res)=>{
+exports.getCart = async (req, res) => {
 
-    const carts=await Cart.find().populate("product");
-
+    const carts = await Cart.find().populate("items.product");
     res.json(carts);
-
 };
 
-exports.createCart=async(req,res)=>{
+exports.createCart = async (req, res) => {
 
     const cart=await Cart.create(req.body);
 

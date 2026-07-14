@@ -7,7 +7,7 @@ const cors = require("cors");
 const productRoutes = require("./routes/productRoutes");
 const cartRoutes = require("./routes/cartRoutes");
 
-const errorHandeler = require("../middleware/errorHandler");
+const errorHandeler = require("./middleware/errorHandler");
 
 const app = express();
 
@@ -37,3 +37,5 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, ()=> {
     console.log(`Server running on port ${PORT}`);
 });
+
+module.exports = app;

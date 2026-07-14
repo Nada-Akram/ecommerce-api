@@ -7,12 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "seed": "node seed/seed.js"
+    "seed": "node seed.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
     "accepts": "^2.0.0",
     "body-parser": "^2.3.0",
@@ -97,5 +96,7 @@
     "whatwg-url": "^14.2.0",
     "wrappy": "^1.0.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }

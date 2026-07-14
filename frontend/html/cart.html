@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css>"
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesomm/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            ShopEase
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html" class="active">
+                <i class="fas fa-shopping-cart"></i>
+                Cart
+            </a>
+
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="cart-container">
+
+        <h1>Your Shopping Cart</h1>
+
+        <div id="cart-items">
+
+
+        </div>
+
+        <div class="cart-summary">
+
+            <h2>
+                Total:
+                <span id="cart-total">$0.00</span>
+            </h2>
+        </div>
+    </main>
+    
+    <script src="../js/api.js"></script>
+    <script src="../js/cart.js"></script>
+</body>
+</html>
